@@ -1,7 +1,7 @@
 const inquirer = require("inquirer");
 const fs = require("fs");
 console.log("Team Profile Generator")
-const Employee = require("./Employee");
-const Manager = require("./Manager");
-const Engineer = require("./Engineer");
-const Intern = require("./Intern");
+const Employee = require("./lib/Employee");
+const Manager = require("./lib/Manager");
+const Engineer = require("./lib/Engineer");
+const Intern = require("./lib/Intern");
